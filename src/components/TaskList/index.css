@@ -1,0 +1,55 @@
+.list-items{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Roboto";
+}
+.liEle{
+    list-style: none;
+    color: #000000;
+    background-color:#E4FBFF;
+    font-family: "Roboto";
+    width: 300px;
+    margin-bottom: 10px;
+    border-style: none;
+    border-left: 4px solid #7868E6;
+    border-radius: 7px;
+
+}
+@media screen and (min-width:768px){
+    .liEle{
+        width: 450px;
+    }
+    .list-items{
+        margin-top: 20px;
+    }
+}
+.button-logo{
+    background-color: transparent;
+    border-style: none;
+}
+.checkbox{
+    margin-right: 10px;
+    height: 17px;
+    width: 17px;
+    margin-left: 10px;
+}
+.checkbox-container{
+    display: flex;
+    align-items: center;
+}
+
+.imported-logos{
+    height: 17px;
+    width: 17px;
+}
+.logos-container{
+    display: flex;
+    align-items: center;
+}
+.css{
+    text-decoration: line-through;
+}.none{
+    text-decoration: none;
+}

@@ -1,0 +1,54 @@
+.tasklist-main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom,#BBE9FF,#B1AFFF);
+    padding: 10px;
+}
+.tasklist-sub-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border:2px solid  #7868E6;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 400px;
+    padding: 0px;
+}
+.input-element{
+    border-style: none;
+    outline: none;
+    padding: 8px;
+    background-color: #ffffff;
+    font-size: 16px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width:70%;
+}
+
+
+.button-ele{
+    padding: 10px;
+    border-style: none;
+    outline: none;
+    cursor: pointer;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    background-color: #B8B5FF;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 15px;
+}
+.ulELe{
+    padding-left: 0px;
+    margin-top: 30px;
+}
+.main-heading{
+    font-family: "Roboto";
+    margin-top: 60px;
+    margin-bottom: 20px;
+    color:  #7868E6;
+}
